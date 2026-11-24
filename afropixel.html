@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AfroPixel,votre site de vente en ligne</title>
     <link rel="stylesheet" href="index.css">
-    <script src="afro.js" defer></script>
+    <script type="module" src="afro.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>AFRO PIXEL</h1>
-        <h2>LA REFERENCE DE VENTE D'IMAGE DE QUALITE</h2>
-        <div class="panier">
-        <img src="images/cart-logo.png" alt="panier">
-        <span id="compteur">0</span>
+    <div id="header">
+        <div class="text_header">
+            <h1>AFRO PIXEL</h1>
+            <h2>LA RÉFÉRENCE DANS LA VENTE D'IMAGES DE QUALITÉ</h2>
         </div>
-    </header>
+        <div id="panier_icone">
+            <img src="images/cart-logo.png" id="logo" alt="Panier">
+            <span id="compteur">0</span>
+        </div>
+    </div>
     <hr><hr>
 
-    <main id="galerie"></main>
+    <main id="app"></main>
 </body>
 </html>
