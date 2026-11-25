@@ -18,5 +18,19 @@
             width: 100px;
             height: 100px;
         }
+
+        #compteur{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            border-radius: 50%;
+            background: red;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+        }
     }
 }
